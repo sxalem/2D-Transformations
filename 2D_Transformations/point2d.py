@@ -46,4 +46,5 @@ class Point2D:
         plt.grid(True)  # Add grid
         
         # Show plot
+        plt.legend(['Original', 'Translated', 'Rotated', 'Transformed'], loc='upper left')
         plt.show()
