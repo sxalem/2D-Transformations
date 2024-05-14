@@ -5,7 +5,7 @@ This project demonstrates basic 2D transformations using Python. It includes cla
 ## Usage
 
 1. Clone the repository.
-2. Install the required dependencies using `pip install -r requirements.txt`.
+2. Install the required dependencies using `pip install -r Requirements.txt`.
 3. Run `runner.py` to see the transformations applied to a set of sample points.
 
 ## Files
