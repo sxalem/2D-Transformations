@@ -1,14 +1,11 @@
-
-#test.py 
+#!/usr/bin/env python3
 import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '2D_Transformations')))
-
+sys.path.append('../2D_Transformations')  
 import numpy as np
-from point2d import Point2D
-from translate import Translate
-from rotate import Rotate
-from transformation import Transformation
+from D_Transformations.point2d import Point2D
+from D_Transformations.translate import Translate
+from D_Transformations.rotate import Rotate
+from D_Transformations.transformation import Transformation
 import matplotlib.pyplot as plt
 
 # Set up the points
@@ -41,5 +38,8 @@ for p in points:
     p_r.plot('g') # color green
     p_T = T1 * p
     p_T.plot('y') # color yellow
+
+def run_tests():
+    pass
 
 plt.axis('equal')   
