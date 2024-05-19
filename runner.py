@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from D_Transformations.point2d import Point2D  # Import the Point2D class
+from D_Transformations.point2d import Point2D  
 
 from D_Transformations.translate import Translate
 from D_Transformations.rotate import Rotate
